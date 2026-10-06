@@ -1,0 +1,12 @@
+{
+  "protocol": "Colab evaluation of saved checkpoints on the official test split.",
+  "dataset_root": "/Users/ahmadhamdy/Desktop/Midterm_ML/data/faces_aligned_small_mirrored_co_aligned_cropped_cleaned",
+  "single": {
+    "year_mae": 3.4438871544329186
+  },
+  "multi": {
+    "year_mae": 3.481974080623355,
+    "gender_accuracy": 0.9617980561555075,
+    "gender_f1": 0.9569057408253389
+  }
+}

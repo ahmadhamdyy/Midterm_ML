@@ -1,0 +1,25 @@
+# Large dataset files (images, sqlite, archives)
+data/
+*.tar.gz
+*.sqlite3
+*.db
+
+# Model checkpoints (hundreds of MB)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Copied eval checkpoints
+eval_out/*.pt
+
+# Python / OS junk
+__pycache__/
+*.py[cod]
+.Python
+.DS_Store
+.ipynb_checkpoints/
+
+# Office lock files
+~$*

@@ -1,0 +1,16 @@
+{
+  "task": "multi",
+  "auxiliary_weight": 0.1,
+  "best_epoch": 20,
+  "best_validation": {
+    "loss": 0.028256588545269086,
+    "year_loss": 0.02469219944054839,
+    "year_mae": 2.666757583618164,
+    "gender_loss": 0.03564388997354393,
+    "gender_accuracy": 0.9893653516295026,
+    "gender_f1": 0.9887558940877765
+  },
+  "epochs_completed": 20,
+  "elapsed_seconds": 618.4994759559631,
+  "checkpoint": "/scratch/user/u.ae271721/midterm_mtl/runs/multi_0p10/best.pt"
+}

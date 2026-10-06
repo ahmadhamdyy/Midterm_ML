@@ -1,0 +1,12 @@
+{
+  "train": {
+    "split": "train",
+    "valid": 29152,
+    "excluded": 0,
+    "issues": [],
+    "year_min": 1905,
+    "year_max": 2013,
+    "female": 15368,
+    "male": 13784
+  }
+}

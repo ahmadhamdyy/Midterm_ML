@@ -1,0 +1,57 @@
+{
+  "selection_basis": "minimum validation year MAE; gender accuracy is tie-breaker",
+  "single_checkpoint": "/scratch/user/u.ae271721/midterm_mtl/runs/single/best.pt",
+  "multi_checkpoint": "/scratch/user/u.ae271721/midterm_mtl/runs/multi_0p05/best.pt",
+  "selected_auxiliary_weight": 0.05,
+  "single_validation": {
+    "loss": 0.024062416937655897,
+    "year_loss": 0.024062416937655897,
+    "year_mae": 2.598741054534912
+  },
+  "multi_validation": {
+    "loss": 0.025428959753074756,
+    "year_loss": 0.02361191556011015,
+    "year_mae": 2.550086736679077,
+    "gender_loss": 0.03634088427901881,
+    "gender_accuracy": 0.9897084048027445,
+    "gender_f1": 0.9890909090909091
+  },
+  "all_multi_candidates": [
+    {
+      "auxiliary_weight": 0.05,
+      "best_epoch": 20,
+      "best_validation": {
+        "loss": 0.025428959753074756,
+        "year_loss": 0.02361191556011015,
+        "year_mae": 2.550086736679077,
+        "gender_loss": 0.03634088427901881,
+        "gender_accuracy": 0.9897084048027445,
+        "gender_f1": 0.9890909090909091
+      }
+    },
+    {
+      "auxiliary_weight": 0.1,
+      "best_epoch": 20,
+      "best_validation": {
+        "loss": 0.028256588545269086,
+        "year_loss": 0.02469219944054839,
+        "year_mae": 2.666757583618164,
+        "gender_loss": 0.03564388997354393,
+        "gender_accuracy": 0.9893653516295026,
+        "gender_f1": 0.9887558940877765
+      }
+    },
+    {
+      "auxiliary_weight": 0.2,
+      "best_epoch": 20,
+      "best_validation": {
+        "loss": 0.03425101072557134,
+        "year_loss": 0.025020965935077716,
+        "year_mae": 2.7022640705108643,
+        "gender_loss": 0.04615022252804215,
+        "gender_accuracy": 0.9886792452830189,
+        "gender_f1": 0.9879956347762823
+      }
+    }
+  ]
+}

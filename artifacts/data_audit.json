@@ -1,0 +1,23 @@
+{
+  "dataset_root": "/scratch/user/u.ae271721/midterm_mtl/data/faces_aligned_small_mirrored_co_aligned_cropped_cleaned",
+  "train": {
+    "split": "train",
+    "valid": 29152,
+    "excluded": 0,
+    "issues": [],
+    "year_min": 1905,
+    "year_max": 2013,
+    "female": 15368,
+    "male": 13784
+  },
+  "test": {
+    "split": "test",
+    "valid": 7408,
+    "excluded": 0,
+    "issues": [],
+    "year_min": 1905,
+    "year_max": 2013,
+    "female": 4226,
+    "male": 3182
+  }
+}

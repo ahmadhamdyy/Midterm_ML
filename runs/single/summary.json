@@ -1,0 +1,13 @@
+{
+  "task": "single",
+  "auxiliary_weight": 0.0,
+  "best_epoch": 20,
+  "best_validation": {
+    "loss": 0.024062416937655897,
+    "year_loss": 0.024062416937655897,
+    "year_mae": 2.598741054534912
+  },
+  "epochs_completed": 20,
+  "elapsed_seconds": 620.2861521244049,
+  "checkpoint": "/scratch/user/u.ae271721/midterm_mtl/runs/single/best.pt"
+}

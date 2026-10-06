@@ -1,0 +1,20 @@
+{
+  "command": "train",
+  "data_root": "/scratch/user/u.ae271721/midterm_mtl/data",
+  "output_dir": "/scratch/user/u.ae271721/midterm_mtl/runs/multi_0p10",
+  "task": "multi",
+  "auxiliary_weight": 0.1,
+  "epochs": 20,
+  "patience": 6,
+  "batch_size": 128,
+  "workers": 12,
+  "image_size": 224,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "resume": true,
+  "no_amp": false,
+  "no_pretrained": false,
+  "dataset_root": "/scratch/user/u.ae271721/midterm_mtl/data/faces_aligned_small_mirrored_co_aligned_cropped_cleaned",
+  "device_used": "cuda"
+}

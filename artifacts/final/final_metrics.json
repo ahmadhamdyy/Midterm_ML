@@ -1,0 +1,22 @@
+{
+  "protocol": "Test split evaluated once after validation-only model selection.",
+  "dataset_root": "/scratch/user/u.ae271721/midterm_mtl/data/faces_aligned_small_mirrored_co_aligned_cropped_cleaned",
+  "audit": {
+    "split": "test",
+    "valid": 7408,
+    "excluded": 0,
+    "issues": [],
+    "year_min": 1905,
+    "year_max": 2013,
+    "female": 4226,
+    "male": 3182
+  },
+  "single": {
+    "year_mae": 3.4418882201093832
+  },
+  "multi": {
+    "year_mae": 3.4822397417435123,
+    "gender_accuracy": 0.9620680345572354,
+    "gender_f1": 0.9571972581873572
+  }
+}
